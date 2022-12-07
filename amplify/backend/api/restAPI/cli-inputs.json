@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "paths": {
+    "/exercises": {
+      "name": "/exercises",
+      "lambdaFunction": "exerciseAPI",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    }
+  }
+}

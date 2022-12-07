@@ -1,0 +1,30 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-exerciseui-dev-164544-authRole",
+      "UnauthRoleArn": "arn:aws:iam::405070096638:role/amplify-exerciseui-dev-164544-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::405070096638:role/amplify-exerciseui-dev-164544-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-exerciseui-dev-164544-deployment",
+      "UnauthRoleName": "amplify-exerciseui-dev-164544-unauthRole",
+      "StackName": "amplify-exerciseui-dev-164544",
+      "StackId": "arn:aws:cloudformation:us-west-2:405070096638:stack/amplify-exerciseui-dev-164544/26f415e0-7436-11ed-be83-0a6d917f95b7",
+      "AmplifyAppId": "dl0b2s00kwdlm",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-exerciseui-dev-164544-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "function": {
+        "exerciseAPI": {
+          "deploymentBucketName": "amplify-exerciseui-dev-164544-deployment",
+          "s3Key": "amplify-builds/exerciseAPI-6858595362625256304b-build.zip"
+        }
+      },
+      "auth": {
+        "exerciseui": {}
+      },
+      "api": {
+        "restAPI": {}
+      }
+    }
+  }
+}
